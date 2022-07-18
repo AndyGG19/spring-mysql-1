@@ -21,7 +21,7 @@ public class Ciudad {
 	@Column
 	private long id;
 	@Column(nullable = false)
-	private String nom_ciudad;
+	private String nombre;
 		
 	@ManyToOne
 	@JoinColumn

@@ -7,6 +7,6 @@ import lombok.Data;
 public class CiudadDTO {
 
 	private long id;
-	private String nom_ciudad;
-	private ProvinciaDTO provinciaDTO;
+	private String nombre;
+	private ProvinciaDTO provincia;
 }
